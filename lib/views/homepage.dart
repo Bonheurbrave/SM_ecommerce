@@ -44,8 +44,33 @@ class _HomepageState extends State<Homepage> {
                             TextButton(onPressed: () {}, child: Text("More")),
                             Icon(Icons.arrow_drop_down),
                           ],
-                        )
+                        ),
                       ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        children: [
+                          
+                          Container(
+                            child: Image.asset("images/homepageback.jpg"),
+                          ),
+                          
+                          Container(
+                            child: Image.asset("images/logo.jpg"),
+                          ),
+                          Container(
+                            child: Image.asset("images/homepageback.jpg"),
+                          ),
+                          Container(
+                            child: Image.asset("images/logo.jpg"),
+                          ),
+
+                        ],
+                      ),
                     )
                   ],
                 ),
