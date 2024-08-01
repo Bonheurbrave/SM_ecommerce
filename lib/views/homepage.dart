@@ -54,11 +54,21 @@ class _HomepageState extends State<Homepage> {
                       scrollDirection: Axis.horizontal,
                       child: Row(
                         children: [
-                          
                           Container(
-                            child: Image.asset("images/homepageback.jpg"),
+                            decoration:BoxDecoration(
+                              borderRadius: BorderRadius.circular(20),
+                              color: Colors.white
+                            ),
+                            width: 50,
+                            height: 100,
+                            child: Column(children: [
+                              Image.asset(
+                                "images/homepageback.jpg",
+                                
+                              ),
+                              Text("Valvert Jackets")
+                            ]),
                           ),
-                          
                           Container(
                             child: Image.asset("images/logo.jpg"),
                           ),
@@ -68,7 +78,6 @@ class _HomepageState extends State<Homepage> {
                           Container(
                             child: Image.asset("images/logo.jpg"),
                           ),
-
                         ],
                       ),
                     )
