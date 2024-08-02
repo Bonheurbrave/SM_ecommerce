@@ -1,6 +1,5 @@
-import 'package:all_widget/views/homepage.dart';
+import 'package:all_widget/screens/navigationbar.dart';
 import 'package:flutter/material.dart';
-import 'package:page_transition/page_transition.dart';
 import "package:animated_splash_screen/animated_splash_screen.dart";
 
 class Splashscreen extends StatefulWidget {
@@ -20,7 +19,7 @@ class _SplashscreenState extends State<Splashscreen> {
           child: Image.asset("images/logo.jpg"),
         ),
       ),
-        nextScreen: Homepage(),
+        nextScreen: Navigationbar(),
         duration: 2000,
         splashTransition: SplashTransition.fadeTransition,
       ),
