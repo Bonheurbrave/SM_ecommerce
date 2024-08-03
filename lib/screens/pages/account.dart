@@ -10,7 +10,6 @@ class Account extends StatefulWidget {
 class _AccountState extends State<Account> {
   @override
   Widget build(BuildContext context) {
-    return Container(color: Colors.red,);
-    
+    return Container();
   }
 }
