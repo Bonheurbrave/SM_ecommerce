@@ -10,7 +10,6 @@ class Favorite extends StatefulWidget {
 class _FavoriteState extends State<Favorite> {
   @override
   Widget build(BuildContext context) {
-    return Container(color: Colors.black,);
-    
+    return Container();
   }
 }
