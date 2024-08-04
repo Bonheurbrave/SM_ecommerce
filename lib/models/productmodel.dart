@@ -28,7 +28,8 @@ class Products {
 final List<Products> products = [
   Products(
     title: 'Earbuds bluetooth',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description:
+        'being dismissed from attending academic season 2024-2025 in your reputed school due to my douchebag (worse) behaviour and less displine. I strongly believe that this was not at all a good thing that idid,',
     image: 'images/product/earbud.jpg',
     review: 'Great product!',
     seller: 'Seller 1',
@@ -40,7 +41,8 @@ final List<Products> products = [
   ),
   Products(
       title: 'Gaming controller',
-      description: 'Vestibulum non consectetur lectus.',
+      description:
+          'being dismissed from attending academic season 2024-2025 in your reputed school due to my douchebag (worse) behaviour and less displine. I strongly believe that this was not at all a good thing that idid,',
       image: 'images/product/manet.jpg',
       review: 'Fantastic!',
       seller: 'Seller 2',
@@ -49,10 +51,10 @@ final List<Products> products = [
       category: 'Clothing',
       rate: 4.8,
       quantity: 50),
-
   Products(
       title: "Star jackets",
-      description: "Lorem ipsum doler sit amet dolor",
+      description:
+          "being dismissed from attending academic season 2024-2025 in your reputed school due to my douchebag (worse) behaviour and less displine. I strongly believe that this was not at all a good thing that idid,",
       image: "images/product/jacket.jpg",
       review: "fantastic",
       seller: "Natcom",
@@ -61,10 +63,10 @@ final List<Products> products = [
       category: "electronics",
       rate: 2.6,
       quantity: 2),
-
   Products(
       title: 'Gaming controller',
-      description: 'Vestibulum non consectetur lectus.',
+      description:
+          'being dismissed from attending academic season 2024-2025 in your reputed school due to my douchebag (worse) behaviour and less displine. I strongly believe that this was not at all a good thing that idid,',
       image: 'images/product/manet.jpg',
       review: 'Fantastic!',
       seller: 'Seller 2',
