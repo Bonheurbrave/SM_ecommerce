@@ -29,7 +29,7 @@ final List<Products> products = [
   Products(
     title: 'Product 1',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    image: 'https://example.com/image1.jpg',
+    image: 'images/product/earbud.jpg',
     review: 'Great product!',
     seller: 'Seller 1',
     price: 19.99,
@@ -41,7 +41,7 @@ final List<Products> products = [
   Products(
       title: 'Product 2',
       description: 'Vestibulum non consectetur lectus.',
-      image: 'https://example.com/image2.jpg',
+      image: 'images/product/manet.jpg',
       review: 'Fantastic!',
       seller: 'Seller 2',
       price: 12.99,
@@ -49,11 +49,11 @@ final List<Products> products = [
       category: 'Clothing',
       rate: 4.8,
       quantity: 50),
-      
+
   Products(
       title: "Product 3",
       description: "Lorem ipsum doler sit amet dolor",
-      image: "https://example.com/image2.jpg",
+      image: "images/product/jacket.jpg",
       review: "fantastic",
       seller: "Natcom",
       price: 12.56,
