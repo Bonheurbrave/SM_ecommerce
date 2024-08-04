@@ -27,7 +27,7 @@ class Products {
 
 final List<Products> products = [
   Products(
-    title: 'Product 1',
+    title: 'Earbuds bluetooth',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     image: 'images/product/earbud.jpg',
     review: 'Great product!',
@@ -39,7 +39,7 @@ final List<Products> products = [
     quantity: 100,
   ),
   Products(
-      title: 'Product 2',
+      title: 'Gaming controller',
       description: 'Vestibulum non consectetur lectus.',
       image: 'images/product/manet.jpg',
       review: 'Fantastic!',
@@ -51,7 +51,7 @@ final List<Products> products = [
       quantity: 50),
 
   Products(
-      title: "Product 3",
+      title: "Star jackets",
       description: "Lorem ipsum doler sit amet dolor",
       image: "images/product/jacket.jpg",
       review: "fantastic",
@@ -60,5 +60,17 @@ final List<Products> products = [
       color: [Colors.red, Colors.green],
       category: "electronics",
       rate: 2.6,
-      quantity: 2)
+      quantity: 2),
+
+  Products(
+      title: 'Gaming controller',
+      description: 'Vestibulum non consectetur lectus.',
+      image: 'images/product/manet.jpg',
+      review: 'Fantastic!',
+      seller: 'Seller 2',
+      price: 12.99,
+      color: [Colors.red, Colors.yellow],
+      category: 'Clothing',
+      rate: 4.8,
+      quantity: 50),
 ];
