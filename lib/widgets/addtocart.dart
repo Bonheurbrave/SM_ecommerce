@@ -1,3 +1,4 @@
+import 'package:all_widget/screens/pages/cartpage.dart';
 import 'package:flutter/material.dart';
 
 class Addtocart extends StatefulWidget {
@@ -12,7 +13,8 @@ class _AddtocartState extends State<Addtocart> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(color: Colors.black , borderRadius: BorderRadius.circular(20)),
+      decoration: BoxDecoration(
+          color: Colors.black, borderRadius: BorderRadius.circular(20)),
       child: Row(
         children: [
           Container(
@@ -21,32 +23,47 @@ class _AddtocartState extends State<Addtocart> {
                 TextButton(
                     onPressed: () {
                       setState(() {
-                        if ( productq > 1){
+                        if (productq > 1) {
                           productq -= 1;
                         }
-                        
                       });
                     },
-                    child: Text("-" , style: TextStyle(color: Colors.white),)),
-                Text("${productq}" , style: TextStyle(color: Colors.white),),
+                    child: Text(
+                      "-",
+                      style: TextStyle(color: Colors.white),
+                    )),
+                Text(
+                  "${productq}",
+                  style: TextStyle(color: Colors.white),
+                ),
                 TextButton(
                     onPressed: () {
                       setState(() {
                         productq += 1;
                       });
                     },
-                    child: Text("+" , style: TextStyle(color: Colors.white),)),
+                    child: Text(
+                      "+",
+                      style: TextStyle(color: Colors.white),
+                    )),
               ],
             ),
           ),
-          Container(
-            width: 230,
-            height: 35,
-            decoration: BoxDecoration(
-            color: Colors.orange,
-            borderRadius: BorderRadius.circular(20)
+          InkWell(
+            onTap: () {
+              Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (context) => Cartpage()));
+            },
+            child: Container(
+              width: 230,
+              height: 35,
+              decoration: BoxDecoration(
+                  color: Colors.orange,
+                  borderRadius: BorderRadius.circular(20)),
+              child: Center(
+                  child: Text("Add to Cart",
+                      style: TextStyle(color: Colors.white))),
             ),
-            child: Center(child: Text("Add to Cart" , style:TextStyle(color: Colors.white))),
           )
         ],
       ),
