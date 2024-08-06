@@ -15,11 +15,11 @@ class Navigationbar extends StatefulWidget {
 class _NavigationbarState extends State<Navigationbar> {
   int currentIndex = 2;
   var currentscreens = [
-    Gridpage(),
+    Home(),
     Favorite(),
     Home(),
     Cartpage(),
-    Account(),
+    AccountPage(),
     
   ];
   @override
