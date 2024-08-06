@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import "package:provider/provider.dart";
 class Products {
   final String title;
   final String description;
@@ -76,3 +76,4 @@ final List<Products> products = [
       rate: 4.8,
       quantity: 50),
 ];
+
